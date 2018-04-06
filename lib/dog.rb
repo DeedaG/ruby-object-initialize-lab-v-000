@@ -16,7 +16,8 @@ class Dog
 
  def breed=(dog_breed)
    @breed = dog_breed
-   @breed =
+   if @breed != dog_breed
+     return "Mutt"
  end
 
  def breed
