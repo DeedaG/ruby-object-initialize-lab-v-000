@@ -1,7 +1,7 @@
 
 class Dog
 
-  def initialize (dogs_name, dog_breed("Mutt")
+  def initialize (dogs_name, dog_breed, dog_breed.blank?)
    @name = (dogs_name)
    @breed = (dog_breed)
  end
@@ -16,7 +16,7 @@ class Dog
 
  def breed=(dog_breed)
    @breed = dog_breed
-   if @breed =
+   if @breed = dog_breed.blank?
      puts {"Mutt"}
   end
  end
