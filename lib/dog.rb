@@ -14,7 +14,7 @@ class Dog
     @name
   end
 
- def breed=(dog_breed, != dog_breed)
+ def breed=(dog_breed, (!= dog_breed))
    @breed = dog_breed
    if @breed != dog_breed
      return "Mutt"
@@ -28,4 +28,3 @@ end
 fido = Dog.new("Fido", "Pug")
 
 fido = Dog.new("Fido")
-
