@@ -1,7 +1,7 @@
 
 class Dog
 
-  def initialize (dogs_name, dog_breed)
+  def initialize (dogs_name, dog_breed, (  ))
    @name = (dogs_name)
    @breed = (dog_breed)
    if @name = (dogs_name) && @breed = (  )
