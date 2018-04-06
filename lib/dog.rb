@@ -23,7 +23,8 @@ class Dog
 
  def breed
    @breed
-   return "Mutt"
+   if @breed =
+     return "Mutt"
  end
 end
 
