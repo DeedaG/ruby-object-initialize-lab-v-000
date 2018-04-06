@@ -26,7 +26,6 @@ class Dog
    "Mutt"
  end
 end
-end
 
 fido = Dog.new("Fido", "Pug")
 
