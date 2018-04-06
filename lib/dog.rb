@@ -4,7 +4,7 @@ class Dog
   def initialize (dogs_name, dog_breed, Mutt)
    @name = (dogs_name)
    @breed = (dog_breed)
-   if @breed != (dog_breed)
+   if @name, @breed  (dogs_name)
      return "Mutt"
    end
  end
