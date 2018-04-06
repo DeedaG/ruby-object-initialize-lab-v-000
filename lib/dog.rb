@@ -23,7 +23,7 @@ class Dog
 
  def breed
    @breed
-   {"Mutt"}
+   return "Mutt"
  end
 end
 
