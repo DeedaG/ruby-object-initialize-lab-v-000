@@ -24,8 +24,9 @@ class Dog
  def breed
    @breed
    if @breed =
-     return "Mutt"
+     return {"Mutt"}
  end
+end
 end
 
 fido = Dog.new("Fido", "Pug")
