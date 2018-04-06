@@ -23,7 +23,7 @@ class Dog
 
  def breed
    @breed
-   {"Mutt"}
+   "Mutt"
  end
 end
 end
