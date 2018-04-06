@@ -16,7 +16,7 @@ class Dog
 
  def breed=(dog_breed)
    @breed = dog_breed
-   if dog_breed.blank?== true
+   if dog_breed.blank? = true
      then puts {"Mutt"}
   end
  end
